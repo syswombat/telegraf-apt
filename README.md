@@ -26,7 +26,7 @@ Telegraf can be configured like this:
 
 ```ini
 [[inputs.execd]]
-  command = ["/bin/sh", "/opt/telegraf/telegraf-apt.sh"]
+  commands = ["/bin/sh", "/opt/telegraf/telegraf-apt.sh"]
   data_format = "influx"
 
   interval = "24h"
